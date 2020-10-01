@@ -1,0 +1,26 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(95, 167, 190);
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: auto auto auto;
+  padding: 25px;
+  min-height: 300px;
+  border-radius: 5px;
+  background: rgb(223, 230, 238);
+  min-width: 900px;
+  min-height: 500px;
+}
+
+.input {
+  height: 200px;
+  width: auto;
+}
+
+
